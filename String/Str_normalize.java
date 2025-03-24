@@ -2,8 +2,8 @@
 //three ways to normalize a string
 // 1. use replaceAll("\\s", "") method to replace spaces at first, last and inbetween letter
 // 2. use trim() method to replace spaces at string beginning and ending
-// 4. use trim().replaceAll("\\s+","") method to remove extra places inbetween the sentence 
-// 3. use replaceAll("\\s", "") to replace spaces only at 
+// 3. use trim().replaceAll("\\s+","") method to remove extra places inbetween the sentence 
+
 import java.util.Scanner;
 public class Str_normalize{
 	public static String normal_str(String str){
